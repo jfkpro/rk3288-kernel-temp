@@ -41,11 +41,11 @@
  */
 
 /dts-v1/;
-#include "rk3288-firefly.dtsi"
+#include "rk3288-linux.dtsi"
 
 / {
-	model = "Firefly-RK3288";
-	compatible = "firefly,firefly-rk3288", "rockchip,rk3288";
+	model = "gntek-RK3288";
+	compatible = "gntek,gntek-rk3288", "rockchip,rk3288";
 };
 
 &ir {

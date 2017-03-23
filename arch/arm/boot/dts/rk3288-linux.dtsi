@@ -689,6 +689,11 @@
 	status = "okay";
 };
 
+&usb_host0_ehci {
+	pinctrl-names = "default";
+	pinctrl-0 = <&usbhub_rst>;
+	status = "okay";
+};
 &usb_otg {
 	status = "okay";
 };
